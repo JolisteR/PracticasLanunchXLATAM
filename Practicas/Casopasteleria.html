@@ -46,11 +46,35 @@
      <li><b>Merengue </b> ...............$40</li>
     </ul> 
     <hr>
-    
+
+ <h2>Ubicacion</h2>
+ <h3>Sucursales</h3>
+   <table>
+   <tr>
+   <th>Nombre</th>
+   <th>Ubicacion</th>
+   <th>Horarios</th>
+ </tr>
+ <tr>
+    <td>Central</td>
+    <td><a href="https://www.google.com/maps/dir/18.5569441,-69.705236/mapa+helados+bon/@18.5416204,-69.7742851,13z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8eaf8732fc0b9eef:0x7afb45eb199a6183!2m2!1d-69.7739296!2d18.5269414" target="_blank"> Puebla carretera nuero 5</td>
+    <td>L - D 6AM - 11PM</td>
+ </tr>
+ <tr>
+    <td>Norte</td>
+    <td><a href="https://www.google.com/maps/place/Chicago+Cubs+Dominican+Baseball+Academy/@18.5177739,-69.7069536,12.5z/data=!4m19!1m13!4m12!1m4!2m2!1d-69.705236!2d18.5569441!4e1!1m6!1m2!1s0x8eaf8732fc0b9eef:0x7afb45eb199a6183!2smapa+helados+bon!2m2!1d-69.7739296!2d18.5269414!3m4!1s0x8eaf7f499916e025:0x387912fc62674b7f!8m2!3d18.5108765!4d-69.6465005" target="_blank"> KINGTOM ALUMINIO SRL</td>
+    <td>L - S 8AM - 9PM</td>
+ </tr>
+ <tr>
+    <td>Este</td>
+    <td><a href="https://www.google.com/maps/place/Narcisa+2,+Santo+Domingo+Este/@18.5104868,-69.8414504,17z/data=!3m1!4b1!4m19!1m13!4m12!1m4!2m2!1d-69.705236!2d18.5569441!4e1!1m6!1m2!1s0x8eaf8732fc0b9eef:0x7afb45eb199a6183!2smapa+helados+bon!2m2!1d-69.7739296!2d18.5269414!3m4!1s0x8eaf8639d227c9b3:0x5b1682d06fb98d7b!8m2!3d18.5105173!4d-69.8391733" target="_blank"> Narcisa 2 </td>
+    <td>L - S 7AM - 9PM</td>
+    </table>
+    <hr>
+
     <h2>Ordenemos un pastel</h2>
     <h4>Elija la cubierta para su pastel,<br> recuerde marcar solo una cubierta.</h4>
-
-
+    
     <!--Sabor de bizcocho-->
     <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
     <label for="Vainilla">Vainilla</label>
@@ -70,7 +94,6 @@
     <input type="checkbox" id="Mermelada" name="Mermelada" value="Mermelada">
     <label for="infantil">Mermelada</label>
     <br><br>
-
 
     <!--Sabores de pasteles para el relleno-->
     <h4>Elija la cubierta para su pastel,<br> recuerde marcar solo un sabor para relleno.</h4>
@@ -109,8 +132,19 @@
 
     <input type="checkbox" id="Merengue" name="Merengue" value="Merengue">
     <label for="Merengue">Merengue</label>
-    <br><br>
+    <hr>
 
+    <h3>Sucursar a mas cercana</h3>
+    <form action="">
+        <p>Cual es su sucursal mas cercana</p>
+      <select>
+         <option value="Central">Central </option>
+         <option value="Sur">Sur </option>
+         <option value="Este">Este </option>
+      </select>
+
+    <hr>
+    <!--Info personal-->
     <label for="Nombre">Nombre </label><br>
     <input type="text" id="Nombre" placeholder="Cual es su nombre">
     <br>
@@ -127,7 +161,6 @@
     <br><br><br>
 
     <button type="submit">Enviar informacion de pedido</button>
-
 
 </form>  
 
